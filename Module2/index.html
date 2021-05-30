@@ -1,0 +1,76 @@
+<!DOCTYPE html> <!-- Rafael Villacorta Martinez - 300061289 -->
+
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Lab 2 - Site d'épicerie</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <h1>L'Épicerie Virtuel</h1>
+        <div class="misc">
+            Le site pour commander des produits selon votre exigence alimentaire
+        </div>
+        
+        <img src="./images/groceries.jpg" alt="Épicerie">
+        
+        <div class="main">
+                <div class="tab">
+                    <button class="tablinks" onclick="openInfo(event, 'Client')">Données personnelles</button>
+                    <button class="tablinks" onclick="openInfo(event, 'Produits')">Produits</button>
+                    <button class="tablinks" onclick="openInfo(event, 'Panier')">Panier</button>
+            </div>
+
+            <div id="Client" class="tabcontent">
+                <h3>Exigence alimentaire </h3>
+                  Avez-vous une allergie ou intolérence alimentaire?
+                  <select id="dietSelect" name="dietSelect">
+                    <option value=""></option>
+                    <option value="None">Aucune</option>
+                  <option value="NutFree">Allergie aux noix</option>
+                  <option value="LactoseFree">Intolérence à la lactose</option>
+                  <option value="Both">Allergie aux noix et intolérence à la lactose</option>
+                  </select>
+                  <br></br>
+                  Avez-vous une préférence pour les produits organiques?
+                  <select id="organicSelect" name="organicSelect">
+                    <option value=""></option>
+                    <option value="No">Non</option>
+                  <option value="Yes">Oui</option>
+                  </select>
+                  <br></br>
+                  <button id="apply" name="apply" onclick="populateListProductChoices2('dietSelect', 'organicSelect', 'displayProduct')">Appliquer</button>
+                  <br></br>
+              </div>
+              
+              <div id="Produits" class="tabcontent">
+                <h3>Produits pour vous</h3>
+                <p>Voici les produits disponibles selon votre exigence alimentaire.</p>
+                   Faites votre choix:
+                   <div id="displayProduct"></div>
+                   <br></br>
+                   <button id="addCart" type="button" class="block" onclick="selectedItems()" >
+                      Ajouter des produit à votre panier
+                  </button>
+                  <br></br>
+              </div>
+              
+              <div id="Panier" class="tabcontent">
+                <h3>Panier</h3>
+                <p>Voici les produits dans votre panier.</p>
+                <div id="displayCart"></div>
+                <br></br>
+              </div>
+              
+              <script src="js/product.js"></script>
+              <script src="js/main.js"></script>
+              
+        
+        </div>
+        <footer class="misc">
+            <p id="signature">Site Web créé par : Raf</p>
+        </footer>
+
+    </body>
+</html>

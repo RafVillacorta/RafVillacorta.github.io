@@ -1,0 +1,113 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+     
+    body {
+      background-color: gainsboro;
+      background-image: url('../images/gplay.png');
+      margin-left: 15%;
+      margin-right: 15%;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+    
+    h1 {
+        font-size: 60px;
+        text-align: center;
+        margin: 0;
+        padding: 25px;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        background-color: white;
+    }
+    
+    img {
+        display: block;
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        background-repeat: no-repeat;
+        background-position:  top center;
+        max-width: max-content;
+    }    
+    
+    .main {
+      width: auto;
+      background-color: white;
+      color: black;
+      margin-left: auto;
+      margin-right: auto;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      padding: 0px;
+      font-size: 25px;
+    }
+
+    .tab {
+      overflow: hidden;
+
+    }
+
+    button {
+      font-size: 25px;
+    }
+
+    select {
+      font-size: 25px;
+    }
+
+    input[type="checkbox"] {
+      width:25px;
+      height: 25px;
+    }
+
+    .tab button {
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      background-color: gainsboro;
+      text-align: center;
+      font-size: 100%;
+      font-weight: bold;
+    }
+    
+    .tab button:hover {
+      background-color: #43b0f1;
+    }
+    
+    .tab button.active {
+      color: #43b0f1;
+      background-color: #1e3d58;
+    }
+
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      font-size: 100%;
+      border-top: 2px solid black;
+    }
+    
+    .misc {
+      width: auto;
+      color: #43b0f1;
+      font-weight: bold;
+      background-color: #1e3d58; 
+      margin-left: auto;
+      margin-right: auto;
+      padding: 20px;
+      text-align: center;
+      font-size: 25px;
+    }
+    
+    #signature {
+      text-align: right;
+    }
