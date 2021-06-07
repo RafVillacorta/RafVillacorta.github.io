@@ -1,0 +1,69 @@
+<!DOCTYPE html> <!-- Rafael Villacorta Martinez - 300061289 -->
+
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Lab 3 - Site d'épicerie alternatif</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <h1>L'Épicerie Virtuel</h1>
+        <div class="misc">
+            Le site pour commander des produits selon votre exigence alimentaire
+        </div>
+        
+        <img class="mainImage" src="./images/groceries.jpg" alt="Épicerie">
+        
+        <div class="main">
+                <div class="tab">
+                    <button class="tablinks" onclick="openInfo(event, 'Client')">Données personnelles</button>
+                    <button class="tablinks" onclick="openInfo(event, 'Produits')">Produits</button>
+                    <button class="tablinks" onclick="openInfo(event, 'Panier')">Panier</button>
+            </div>
+
+            <div id="Client" class="tabcontent" class="client">
+                <h3>Exigence alimentaire </h3>
+                  Avez-vous une allergie aux noix?
+                  <label>Oui <input type = "radio" id = "rb1" name = "rbNutFree" value=true onclick="populateListProductChoices()" ></label> | 
+                  <label>Non <input type = "radio" id = "rb2" name = "rbNutFree" value=false onclick="populateListProductChoices()"></label><br>
+                  Avez-vous une intolérence à la lactose?
+                  <label>Oui <input type = "radio" id = "rb3" name = "rbLactoseFree" value=true onclick="populateListProductChoices()" ></label> | 
+                  <label>Non <input type = "radio" id = "rb4" name = "rbLactoseFree" value=false onclick="populateListProductChoices()"></label><br>
+                  Avez-vous une préférence pour les aliments organiques?
+                  <label>Oui <input type = "radio" id = "rb5" name = "rbOrganic" value=true onclick="populateListProductChoices()" ></label> | 
+                  <label>Non <input type = "radio" id = "rb6" name = "rbOrganic" value=false onclick="populateListProductChoices()"></label><br>
+                  <br>
+              </div>
+              
+              <div id="Produits" class="tabcontent" class="products">
+                <h3>Produits selon votre exigence alimentaire</h3>
+                <p>Voici les produits disponibles selon votre exigence alimentaire.</p>
+                <p>Assurez-vous de selectioner les produits voulus et d'appuyer le bouton en bas.</p>
+                   Faites votre choix:
+                   <div id="displayProduct" class="panel"></div>
+                   <br></br>
+                   <button id="addCart" type="button" class="block" onclick="selectedItems()" >
+                      Mettre à jour votre panier
+                  </button>
+                  <br></br>
+              </div>
+              
+              <div id="Panier" class="tabcontent">
+                <h3>Panier</h3>
+                <p>Voici les produits dans votre panier.</p>
+                <div id="displayCart"></div>
+                <br></br>
+              </div>
+              
+              <script src="js/product.js"></script>
+              <script src="js/main.js"></script>
+              
+        
+        </div>
+        <footer class="misc">
+            <p id="signature">Site Web créé par : Raf</p>
+        </footer>
+
+    </body>
+</html>
