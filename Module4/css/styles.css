@@ -1,0 +1,40 @@
+td{
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+}
+.btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    padding: 0px;
+    margin: 0px;
+    margin-top: -25px;
+}
+
+.temp-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.temp-center {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+
+.image-text {
+    width:100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold; 
+    margin-right: 75px;
+    color: black;
+    border-radius: 10px;
+    background-color: #198754;
+  }
