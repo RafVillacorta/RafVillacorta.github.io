@@ -1,0 +1,249 @@
+<!DOCTYPE html> <!-- Rafael Villacorta Martinez - 300061289 -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css" rel="stylesheet" >
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/excite-bike/jquery-ui.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+    <script src="scripts/script.js"></script>
+
+    <title>Module 5 Lab</title>
+</head>
+
+<body style="background-image: url(img/gradient-squares.png); background-attachment: fixed;">
+    <div class = "container-lg">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-success">
+            <div class="container-fluid">
+            <a style="text-decoration: none;" href="#"><h1 style="font-size:50px; width: 500px; padding-top:10px"><img class="logo" src="img/logo.png" alt="" width="75" height="75">OMNI-PHYSIO</h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item active" style="padding-top:20px; font-weight: bold;">
+                        <a href="#services"><div style="font-size: 25px; "> Services &emsp;</div></a>
+                      </li>
+                      <li class="nav-item active" style="padding-top:20px">
+                        <a href="#experts"><div style="font-size: 25px; font-weight: bold;">Experts &emsp;</div></a>
+                      </li>
+                       <li class="nav-item active" style="padding-top:20px">
+                         <a href="#appointments"><div style="font-size: 25px; font-weight: bold;">Rendez-vous &emsp;</div></a>
+                      </li>
+                      <li class="nav-item active" style="padding-top:20px">
+                        <a href="#payment"><div style="font-size: 25px; font-weight: bold;">Paiement</div></a>
+                     </li>
+                </ul>
+              </div>
+            </div>
+          </nav><br><br><br><br>
+ 
+        <div class=" p-3 my-3 border bg-light">
+            <h2><img src="img/information.png" alt="Information" class="icon">   Qui sommes-nous?</h2>
+            <p class="p-1 my-3" style="font-size: 25px">Nous sommes une collection de cliniques munis des meilleurs profesionnels en physiothérapie.
+                Avec des cliniques partout au travers du Canada, nos traitements apporteront votre bien-être peu importe votre province. Ce site 
+                correspond à la sucursale d'Ottawa, à l'étage zéro du centre Rideau.
+            </p>
+            <div class="temp-container">
+                <img src="img/Reception.jpg" alt="Reception" style="width:100%;">
+                <div class="temp-center">
+                    <div class="image-text"><p>Notre adresse:<br>50 rue Rideau, Ottawa,<br>ON K1N 9J7, étage zéro</p></div>
+                </div>
+              </div>
+            
+            
+            <h2 id="services"><br><br><br><img src="img/Services.png" alt="Services" class="icon">   Que pouvons-nous faire?</h2>
+            <table class="table table-striped" style="background-color: white;">
+                <thead>
+                    <tr>
+                        <th scope="col"><h3>Service</h3></th>
+                        <th scope="col"><h3>Description</h3></th>
+                        <th scope="col"><h3>Coût</h3></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Acupuncture</td>
+                        <td>Insertion d'aiguilles dans le corps pour stimuler les nerfs</td>
+                        <td>265$</td>
+                    </tr>
+                    <tr>
+                        <td>Réhabilitation de blessures</td>
+                        <td>Soins orthopédiques à la suite d'une blessure</td>
+                        <td>1255$</td>
+                    </tr>
+                    <tr>
+                        <td>Traitement d'épaules</td>
+                        <td>Massage thérapeutique à partir des épaules jusqu'à la nuque</td>
+                        <td>445$</td>
+                    </tr>
+                    <tr>
+                        <td>Traitement de dos</td>
+                        <td>Massage thérapeutique tout au long du dos</td>
+                        <td>445$</td>
+                    </tr>
+                    <tr>
+                        <td>Traitement de pieds</td>
+                        <td>Massage thérapeutique à partir des chevilles jusqu'aux orteilles</td>
+                        <td>445$</td>
+                    </tr>
+                    <tr>
+                        <td>Séance de yoga</td>
+                        <td>Série d'étirements thérapeutiques avec équipment</td>
+                        <td>265$</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2 id="experts"><br><br><br><img src="img/ExpertsFinal2.png" alt="Experts" class="icon">   Qui sont nos experts? Quand sont-ils disponibles?</h2>
+            <div class="row justify-content-around">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/Doctor1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="image-text">Dr. Harold Ham<br>45+ Années d'exp.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/Doctor2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="image-text">Dr. Céline Giroud<br>20+ Années d'exp.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/Doctor3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="image-text">Dr. Jad Haddad<br>15+ Années d'exp.</p>
+                    </div>
+                </div>
+            </div><br>
+            <table class="table table-striped table-responsive-xxl" style="background-color: white; table-layout: fixed;">
+              <thead>
+                  <tr>
+                      <th scope="col"></th>
+                      <th style="text-align: center;" scope="col"><h3>Lun.</h3></th>
+                      <th style="text-align: center;" scope="col"><h3>Mar.</h3></th>
+                      <th style="text-align: center;" scope="col"><h3>Mer.</h3></th>
+                      <th style="text-align: center;" scope="col"><h3>Jeu.</h3></th>
+                      <th style="text-align: center;" scope="col"><h3>Ven.</h3></th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>Dr. Harold Ham</td>
+                      <td style="text-align: center;">x</td>
+                      <td style="text-align: center;">x</td>
+                      <td style="text-align: center;">x</td>
+                      <td style="text-align: center;">x</td>
+                      <td></td> 
+                  </tr>
+                  <tr>
+                    <td>Dr. Céline Giroud</td>
+                    <td></td>
+                    <td style="text-align: center;">x</td>
+                    <td style="text-align: center;">x</td>
+                    <td style="text-align: center;">x</td>
+                    <td style="text-align: center;">x</td> 
+                  </tr>
+                  <tr>
+                    <td>Dr. Jad Haddad</td>
+                    <td style="text-align: center;">x</td>
+                    <td style="text-align: center;">x</td>
+                    <td style="text-align: center;">x</td>
+                    <td style="text-align: center;">x</td>
+                    <td style="text-align: center;">x</td> 
+                  </tr>
+              </tbody>
+          </table>
+            <form id="info">
+            <h2 id="appointments"><br><br><br><img src="img/Calendar.png" alt="Rendez-vous" class="icon" style="width:36px;height:36px;">   Qu'attendez-vous? Reservez un rendez-vous avec nous!</h2>
+            <div class="card-body bg-light">
+                  <div class="row">
+                    <div class="col-6">
+                      <label for="name" class="form-label"><p>Prénom et Nom</p></label>
+                      <input type="text" class="form-control border-success" id="name" required oninvalid="this.setCustomValidity('Vous devez remplir ce paramètre!')" oninput="this.setCustomValidity('')" title="S.V.P. remplissez le paramètre">
+                      <br>
+                      <label for="phone" class="form-label"><p>Numéro de téléphone</p></label>
+                      <input type="text" class="form-control border-success" id="phone" placeholder="(xxx) xxx-xxxx" required oninvalid="this.setCustomValidity('Vous devez remplir ce paramètre!')" oninput="this.setCustomValidity('')" title="S.V.P. remplissez le paramètre">
+                      <br>
+                      <label for="email" class="form-label"><p>Adresse E-mail</p></label>
+                      <input type="text" class="form-control border-success" id="email" placeholder="exemple@domaine.com" required oninvalid="this.setCustomValidity('Vous devez remplir ce paramètre!')" oninput="this.setCustomValidity('')" title="S.V.P. remplissez le paramètre">
+                    </div>
+
+                    <div class="col-6">
+                      <label for="service" class="form-label"><p>Sélectionnez un service:</p></label>
+                      <select class="custom-select border-success form-control" id="service" required oninvalid="this.setCustomValidity('Vous devez choisir un expert!')" oninput="this.setCustomValidity('')" title="S.V.P. selectionnez un service">
+                        <option disabled selected value>...</option>
+                        <option value="1">Acupuncture</option>
+                        <option value="2">Réhabilitation de blessures</option>
+                        <option value="3">Traitement d'épaules</option>
+                        <option value="4">Traitement de dos</option>
+                        <option value="5">Traitement de pieds</option>
+                        <option value="6">Séance de yoga</option>
+                      </select>
+                      <br>
+                      <label for="expert" class="form-label"><p>Sélectionnez un expert:</p></label>
+                      <select class="border-success form-control" id="expert" required oninvalid="this.setCustomValidity('Vous devez choisir un expert!')" oninput="this.setCustomValidity('')" title="S.V.P. selectionnez un expert" >
+                        <option disabled selected value>...</option>
+                        <option value="1">Docteur Ham</option>
+                        <option value="2">Docteur Giroud</option>
+                        <option value="3">Docteur Haddad</option>
+                      </select>
+                      <br>
+                      
+                      <div class="row">
+                        <label for="date" class="form-label col-8"><p>Fixez une date et temps:</p></label>
+                        <div class="col-6">
+                          <div class="form-group"">
+                            <input type="text" id="date" class="form-control" style="border-radius: 5px; border: 1px solid #198754" required oninvalid="this.setCustomValidity('Vous devez sélectionner une date!')" oninput="this.setCustomValidity('')" title="S.V.P. sélectionnez une date" disabled>
+                          </div>
+                        </div>
+                        <div class="col-6">
+                          <div class="form-group"">
+                            <input type="text" id="time" class="form-control" style="border-radius: 5px; border: 1px solid #198754" required oninvalid="this.setCustomValidity('Vous devez sélectionner une heure!')" oninput="this.setCustomValidity('')" title="S.V.P. sélectionnez une heure" disabled>
+                          </div>
+                        </div>
+                        
+                      
+
+
+                    </div>
+                  </div>
+            </div>
+
+            <h2 id="payment"><br><br><img src="img/cc.png" alt="Rendez-vous" style="width: 35px;margin-bottom: 6px; margin-right: 15px;">Quelle carte de crédit voulez-vous utiliser?</h2>
+            <div class="card-body bg-light">
+                    <div class="row">
+                      <div class="col-md-6 mb-3">
+                        <label for="ccNum"><p>Numéro de carte de crédit</p></label>
+                        <input type="text" title="Votre carte de crédit est demandée en avance en cas de no-show." class="form-control border-success" id="ccNum" placeholder="xxxx xxxx xxxx xxxx" required oninvalid="this.setCustomValidity('Vous devez remplir ce paramètre!')" oninput="this.setCustomValidity('')" >
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <label class="my1 mx-1" for="ccName"><p>Nom sur la carte</p></label>
+                        <input type="text" class="form-control border-success" id="ccName" placeholder="" required title="S.V.P. remplissez le paramètre" oninvalid="this.setCustomValidity('Vous devez remplir ce paramètre!')" oninput="this.setCustomValidity('')">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6 mb-3">
+                        <label for="expiration"><p>Date d'expiration</p></label>
+                        <input type="text" class="form-control border-success" id="expiration" placeholder="mm/aa" required title="S.V.P. remplissez le paramètre avec une date valide" oninvalid="this.setCustomValidity('Vous devez remplir ce paramètre!')" oninput="this.setCustomValidity('')">
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <label for="cvv"><p>CVV</p></label>
+                        <input type="text" class="form-control border-success" id="cvv" placeholder="xxx" required title="S.V.P. remplissez le paramètre" oninvalid="this.setCustomValidity('Vous devez remplir ce paramètre!')" oninput="this.setCustomValidity('')">
+                      </div>
+                    </div>
+                </form><br><br>
+                <div style="margin-left: auto; margin-right: auto; width: 10em">
+                    <button type="submit" id="finish" class="btn-success image-text" style="width: 160px; padding-top: 20px;" ><p>Soumettre</p></button>
+                </div>
+            </div><br><br><br>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>

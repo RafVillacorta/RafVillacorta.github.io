@@ -1,0 +1,96 @@
+td{
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+}
+.btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+input:empty{
+
+}
+
+.logo {
+    padding: 0px;
+    margin: 0px;
+    margin-top: -25px;
+}
+
+.icon {
+    width: 40px;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+.temp-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.temp-center {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.image-text {
+    width:100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold; 
+    margin-right: 75px;
+    color: black;
+    border-radius: 10px;
+    background-color: #198754;
+}
+
+.error {
+      background-color: rgba(255, 0, 0, 0.491);
+}
+
+.ui-tooltip {
+    padding: 10px 20px;
+    color: black !important;
+    border-radius: 20px;
+    background-color: #198754 !important;
+    box-shadow: 0 0 5px #198754 !important;
+}
+
+.ui-widget-header {
+      color: black !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: #198754f1  !important;
+    color: black !important;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+      color: black !important;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    border: 3px solid white !important;
+    font-weight: bold !important;
+    color: white !important;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus .ui-state-hover, .ui-widget-header .ui-state-focus {
+    border: 1px solid #198754 !important;
+    background: #198754 !important;
+    color: white;
+}
