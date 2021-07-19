@@ -1,0 +1,172 @@
+{
+    
+    "navbar-en": [
+        {
+            "id": 1,
+            "title": "Computing World", 
+            "exhibitions": "Exhibitions", 
+            "search": "Search",
+            "searchMessage" : "Choose a category to filter:",
+            "cat1" : "Networks",
+            "cat2" : "Programming Language",
+            "cat3" : "Algorithms",
+            "cat4" : "Digital Systems",
+            "store": "Store",
+            "feedback": "Feedback",
+            "name":"Full Name",
+            "email":"Email Address",
+            "phone":"Phone number",
+            "address":"Address",
+            "comments":"Do you have any comments about your trip to the museum?",
+            "submit":"Submit",
+            "thanks": "Thank you for you feedback!",
+            "info":"Please fill out the following personal information to purchase the selected items.",
+            "payment": "Please fill out the following payment information to purchase the selected items.",
+            "pay":"Place Order",
+            "cc":"Credit Card Number",
+            "ccName":"Name on Card",
+            "cvv":"CVV",
+            "expiration":"Expiration Date",
+            "instructions": "Please select the items that you would like to purchase.",
+            "payed": "Your order has been placed. The package should arrive in the days that follow.",
+            "about": "About",
+            "books": "Reference Books",
+            "puzzle": "Puzzle"
+        }
+    ],
+    "navbar-fr": [
+        {
+            "id": 1,
+            "title": "Monde de l'informatique", 
+            "exhibitions": "Expositions", 
+            "search": "Rechereche",
+            "searchMessage" : "Selectionnez un catégorie pour filtrer:",
+            "cat1" : "Réseaux",
+            "cat2" : "Languages de programmation",
+            "cat4" : "Systèmes digitaux",
+            "cat3" : "Algorithmes",
+            "store": "Magasin",
+            "feedback": "Rétroaction",
+            "name":"Nom complet",
+            "email":"Adresse courriel",
+            "phone":"Numéro de téléphone",
+            "address":"Adresse",
+            "comments":"Avez-vous des commentaires à propos votre visite du musée?",
+            "submit":"Soumettre",
+            "thanks": "Merci pour votre rétroaction!",
+            "info":"S.V.P. remplir l'information personnel suivante pour commander les articles sélectionnés.",
+            "payment": "S.V.P. remplir l'information de paiemment suivante pour commander les articles sélectionnés.",
+            "pay":"Commander",
+            "cc":"Numéro de carte de crédit",
+            "ccName":"Nom sur la carte",
+            "cvv":"CVV",
+            "expiration":"Date d'expiration",
+            "instructions": "S.V.P. sélectionner les articles que vous voulez commander.",
+            "payed": "Votre commande à été placée. Le paquet de votre commande devrait arriver dans les jours qui suivent.",
+            "about": "A propos",
+            "books": "Livres de reference",
+            "puzzle": "Casse-tête"
+        }
+    ],
+    "home-en": [
+        {
+            "id": 1,
+            "text": "The virtual museum of computing" 
+        },
+        {
+            "id": 2,
+            "text": "All categories" 
+        }
+    ],
+    "home-fr": [
+        {
+            "id": 1,
+            "text": "Le musée virtuel de l'informatique" 
+            
+        },
+        {
+            "id": 2,
+            "text": "Toutes les catégories" 
+        }
+    ],
+    "exhibitions-en": [
+        {
+            "id": 1,
+            "title": "History of the WWW", 
+            "body": "Invented  by the English scientist Tim Berners-Lee, the World Wide Web in 1989 and wrote the first web browser in the year that followed while employed at CERN. The WWW, commonly known as the Web, is an information system where documents as well as other web resources are identified by Uniform Resource Locators. They can be then connected using hyperlinks, and are accessible over the Internet. Its resources are transferred through the Hypertext Transfer Protocol, which can allow users to visit using browsers. (Wikipedia)", 
+            "category": "cat1"
+            
+        },
+        {
+            "id": 2,
+            "title": "History of Java", 
+            "body": "Originally developed by James Gosling at Sun Microsystems, Java was released in 1995. Today, it is known as a high-level, class-based, object-oriented programming language designed to have as few implementation dependencies as possible. Java applications are typically compiled to bytecode and can be run on any Java Virtual Machine (JVM), regardless of the underlying computer architecture. To this day, it remains one of the most popular programming languages. (Wikipedia)",
+            "category": "cat2"
+        },
+        {
+            "id": 3,
+            "title": "History of Python", 
+            "body": "Known as an interpreted high-level general-purpose programming language, Python is one of the most popular programming languages to this day. Python notable its code readability due to the use of significant indentation which helps programmers write clear, logical code for small and large-scale projects. (Wikipedia)",
+            "category": "cat2"
+        },
+        {
+            "id": 4,
+            "title": "Matrix Multiplication Algorithm", 
+            "body": "As seen in CSI3105, the Strassen algorithm was shown to compute the product of matrices. After 'unfolding' its recursive equation, it was proved to have a O(n^(log2(7))). It was then revealed that the Coppersmith & Winograd algorithm from 1990 was in fact more efficient.", 
+            "category": "cat3"
+            
+        },
+        {
+            "id": 5,
+            "title": "Boolean Algebra", 
+            "body": "Introduced by George Boole in 1847, Boolean algebra has now been one of the fundamentals in the development of digital electronics. This branch of algebra uses values of true (1) and false (0), to perform operations such as addition and multiplication. It is thus a formalism for describing logical operations, in the same way that elementary algebra describes numerical operations. (Wikipedia)",
+            "category": "cat4"
+        },
+        {
+            "id": 6,
+            "title": "The Word 'Algorithm'", 
+            "body": "Muhammad ibn Musa al-Khwarizmi (783-850), was a Persian polymath that greatly contributed to the fields of Mathematics, Astronomy and Geography. The pronunciation of his name led to the rise of the words 'algorism' and 'algorithm' which now refers to a sequence of instructions used typically to solve a problem. (Wikipedia)",
+            "category": "cat3"
+        }
+    ],
+    "exhibitions-fr": [
+        {
+            "id": 1,
+            "title": "Histoire du WWW", 
+            "body": "Inventé par le scientifique anglais Tim Berners-Lee, le World Wide Web en 1989 et a écrit le premier navigateur web dans l'année qui a suivi alors qu'il était employé au CERN. Le WWW, communément appelé le Web, est un système d'information où les documents ainsi que d'autres ressources Web sont identifiés par des localisateurs de ressources uniformes. Ils peuvent ensuite être reliés à l'aide d'hyperliens, et sont accessibles sur Internet. Ses ressources sont transférées par le protocole de transfert hypertexte, ce qui permet aux utilisateurs de les visiter à l'aide de navigateurs.", 
+            "category": "cat1"
+            
+        },
+        {
+            "id": 2,
+            "title": "Histoire de Java", 
+            "body": "Développé à l'origine par James Gosling chez Sun Microsystems, Java est sorti en 1995. Aujourd'hui, il est connu comme étant un langage de programmation de haut niveau, basé sur des classes et orienté objet, conçu pour avoir le moins de dépendances de mise en œuvre possible. Les applications Java sont généralement compilées en bytecode et peuvent être exécutées sur n'importe quelle machine virtuelle Java (JVM), quelle que soit l'architecture informatique sous-jacente. À ce jour, il s'agit toujours de l'un des langages de programmation les plus populaires. (Wikipedia)",
+            "category": "cat2"
+        },
+        {
+            "id": 3,
+            "title": "Histoire de Python", 
+            "body": "Connu comme un langage de programmation interprété de haut niveau à usage général, Python est l'un des langages de programmation les plus populaires à ce jour. Python se distingue par la lisibilité de son code grâce à l'utilisation d'une indentation importante qui aide les programmeurs à écrire un code clair et logique pour les projets de petite et grande envergure. (Wikipedia)",
+            "category": "cat2"
+        },
+        {
+            "id": 4,
+            "title": "Algorithme de multiplication de matrice", 
+            "body": "Comme vu dans CSI3105, l'algorithme de Strassen a été montré pour calculer le produit de matrices. Après avoir 'déplié' son équation récursive, il a été prouvé que son efficacité était de O(n^(log2(7)). Il a ensuite été révélé que l'algorithme de Coppersmith & Winograd de 1990 était en fait plus efficace.", 
+            "category": "cat3"
+        },
+        {
+            "id": 5,
+            "title": "Algèbre booléenne", 
+            "body": "Introduite par George Boole en 1847, l'algèbre de Boole est désormais l'un des fondements du développement de l'électronique numérique. Cette branche de l'algèbre utilise les valeurs vrai (1) et faux (0), pour effectuer des opérations telles que l'addition et la multiplication. Il s'agit donc d'un formalisme permettant de décrire des opérations logiques, de la même manière que l'algèbre élémentaire décrit des opérations numériques. (Wikipedia)", 
+            "category": "cat4"
+        },
+        {
+            "id": 6,
+            "title": "L'origine du mot 'Algorithme'", 
+            "body": "Muhammad ibn Musa al-Khwarizmi (783-850), était un polymathe perse qui a grandement contribué aux domaines des mathématiques, de l'astronomie et de la géographie. La prononciation de son nom a donné naissance aux mots 'algorisme' et 'algorithme', qui désignent aujourd'hui une séquence d'instructions utilisée généralement pour résoudre un problème. (Wikipedia)",
+            "category": "cat3"
+        }
+    ]
+}
+    

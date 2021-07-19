@@ -1,0 +1,155 @@
+body {
+  background-image: url(./images/fabric-of-squares.png);
+  background-attachment: fixed;
+  background-color:#ffffff !important;
+}
+
+#nav-style {
+  background-color: #007CC7 !important;
+}
+
+#description-style {
+  background-color: #203647 !important;
+  color: white;
+}
+
+.language {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #007CC7;
+  font-size: 25px !important; 
+  font-weight: bold;
+  background-color: black;
+  position: fixed;
+  top: 15px;
+  right: 4%;
+  border-radius: 5px;
+  z-index: 9998;
+  text-transform: uppercase;
+}
+
+button .language :hover{
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #007CC7;
+  font-size: 25px !important; 
+  font-weight: bold;
+  background-color: white !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 5px;
+  z-index: 9999;
+  text-transform: uppercase;
+}
+
+.navbar a {
+  font-weight: bold;
+  color: white;
+  text-decoration:wavy;
+}
+
+.navbar h1 a {
+  font-weight: bold;
+  color: white;
+  text-decoration:wavy;
+  background-color:unset;
+}
+
+.navbar h1 a:hover {
+  font-weight: bold;
+  color: white;
+  text-decoration:wavy;
+  background-color:unset;
+}
+
+.navbar a:hover {
+  color: white;
+  text-decoration:wavy;
+  background-color:#203647;
+  border-radius: 5px;
+}
+
+.inMiddle p{
+  text-align: center;
+  color: white;
+  font-size: 22px !important; 
+  font-weight: bold;
+}
+
+.content {
+  max-width: 80%;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
+.content p {
+  font-size: 20px;
+  color:black;
+}
+
+.exhibition-preview {
+  padding: 10px;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  max-width: 67%;
+}
+
+.exhibition-preview:hover {
+  background-color: gainsboro;
+}
+
+.exhibition-preview h2 {
+  margin-bottom: 10px;
+  color: white;
+  background-color: #007CC7;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.nav-format a {
+  font-weight: bold !important;
+  font-size:23px !important;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  flex-direction: unset !important;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  position:fixed;
+  right: 10%;
+}
+
+.img-format{
+  max-height: 400px;
+  object-fit: scale-down !important;
+}
+
+.img-caption{
+  background-color: #007CC7;
+  border-radius: 10px;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.exhibition-title {
+  color: white;
+  font-size: 25px !important; 
+  font-weight: bold;
+}
+
+.search-input {
+  height: 50px;
+  line-height: 130px;
+  padding: 25px;
+}
+
+#finish {
+  left: 50%;
+  border-radius: 10px;
+}
