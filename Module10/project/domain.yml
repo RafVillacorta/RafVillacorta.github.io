@@ -1,0 +1,81 @@
+version: '2.0'
+session_config:
+  session_expiration_time: 90
+  carry_over_slots_to_new_session: true
+intents:
+- goodbye
+- greet
+- inform
+- subscribe
+- unsubscribe
+- explain
+- thank
+slots:
+  email:
+    type: unfeaturized
+    influence_conversation: false
+responses:
+  utter_greet:
+  - text: |
+      Hello! How can I help you?
+  - text: |
+      Hi!
+  utter_thank:
+  - text: |
+      No problem!
+  - text: |
+      Anytime.
+  - text: |
+      You are welcome.
+  - text: |
+      My pleasure!
+  utter_goodbye:
+  - text: |
+      Hasta la vista baby.
+  - text: |
+      Bye-bye.
+  - text: |
+      Until next time!
+  - text: |
+      Goodbye.
+  utter_ask_email:
+  - text: |
+      What is your email address?
+  utter_subscribed:
+  - text: |
+      Check your inbox order to confirm subscribing to the newsletter!
+  utter_unsubscribed:
+  - text: |
+      It is done! You have been unsubscribed to the newsletter.
+  utter_why:
+  - text: |
+      Could you tell me why you want to do that?
+  - text: |
+      Do you have a reason in particular that makes you want to unsubscribe?
+  - text: |
+      Could you explain your reasoning for unsubscribing?
+  - text: |
+      Is there any reason that makes you want to cancel your subscription?
+  utter_empathy:
+  - text: |
+      Very well, we are very sorry to hear that.
+  - text: |
+      Ok, we are sad to let you go.
+  - text: |
+      Of course, our door will always be open if you change your mind.
+  - text: |
+      I see then, I hope we can make it up to you.
+actions:
+- '...'
+- utter_goodbye
+- utter_greet
+- utter_subscribed
+- utter_unsubscribed
+- utter_thank
+- utter_why
+- utter_empathy
+forms:
+  newsletter_form:
+    required_slots:
+      email:
+      - type: from_text

@@ -1,0 +1,26 @@
+stories:
+ - story: greet and subscribe
+   steps:
+   - intent: greet
+   - action: utter_greet
+   - intent: subscribe
+   - action: utter_ask_email
+   - intent: inform
+   - action: utter_subscribed
+   - intent: thank
+   - action: utter_thank
+   - intent: goodbye
+   - action: utter_goodbye 
+
+ - story: greet and unsubscribe
+   steps:
+   - intent: greet
+   - action: utter_greet
+   - intent: unsubscribe
+   - action: utter_why
+   - intent: explain
+   - action: utter_empathy
+   - intent: thank
+   - action: utter_thank
+   - intent: goodbye
+   - action: utter_goodbye 
